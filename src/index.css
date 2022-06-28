@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 :root {
   --dark: #171717;
+  --secondary:#232323;
   --background: #2d0d0d43;
   --light--dark: #ff1010;
   --foreground:#ff0000;
@@ -10,6 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;

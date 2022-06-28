@@ -1,6 +1,10 @@
 .header {
   width: 100vw;
   display: flex;
+  position: sticky;
+  top: 0;
+  background: var(--dark);
+  z-index: 1000;
   align-items: center;
   justify-content: space-around;
   height: 100px !important;

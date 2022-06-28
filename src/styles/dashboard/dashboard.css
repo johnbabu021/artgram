@@ -1,0 +1,23 @@
+.dashboard__section {
+  height: 100%;
+  background: var(--dark);
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  justify-content: space-around;
+}
+.dashboard__section > div {
+  display: flex;
+  justify-content: center;
+}
+.dashboard__section > div:nth-child(1) {
+  /* background-color: white; */
+  width: 30%;
+}
+.dashboard__section > div:nth-child(2) {
+  width: 40%;
+  /* background-color: rebeccapurple; */
+}
+.dashboard__section > div:nth-child(3) {
+  width: 30%;
+}

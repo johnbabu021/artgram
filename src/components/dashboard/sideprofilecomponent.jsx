@@ -5,7 +5,7 @@ export default function SideProfileComponent() {
     <div className="dashboard__profile">
       <div className="profile__container">
         <div className="profile__cover__image">
-          <img src="logo512.png" />
+          <img  alt="" src="logo512.png" />
         </div>
         <div className="profile__details">
           <div className="profile__details__basic">
@@ -13,7 +13,7 @@ export default function SideProfileComponent() {
               <div>1234</div>
               <div>Followers</div>
             </p>
-            <img src="logo512.png" />
+            <img alt="" src="logo512.png" />
             <p>
               <div>787</div>
               <div>Following</div>

@@ -1,25 +1,18 @@
-import '../../styles/dashboard/posts.css'
+import "../../styles/dashboard/posts.css";
+import AllPosts from "./allposts";
+import CreatePost from "./createpost";
 
 export default function MiddlePostComponent() {
-  return(
-     <section className="middle__posts">
-<div  className="create__posts">
-  <div  className='post__inputs'>
-<img src="logo512.png"/>
-<input  placeholder='share your thoughts '/>
-  </div>
-  <div  className='upload__types'>
-    <div  className='photo'>
-    <img src="pht.svg"/>  photo
-    </div>
-    <div  className='post__submit'>
-      <button>post</button>
-    </div>
+  return (
+    <section className="middle__posts">
+     <CreatePost/>
+      <div  className="all_posts">
+        
+         <AllPosts/>
+         <AllPosts/>
+         <AllPosts/>
 
-  </div>
-  </div>
-
-
-
-  </section>);
+      </div>
+    </section>
+  );
 }

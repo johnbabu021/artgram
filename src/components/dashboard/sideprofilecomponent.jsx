@@ -19,18 +19,13 @@ export default function SideProfileComponent() {
               <div>Following</div>
             </p>
           </div>
-          <div  className="profile__explore">
+          <div className="profile__explore">
             <p>Even Ledge</p>
-            <p>asdfjaskfdk
-              sdfas
-            </p>
-            </div>
-            
+            <p>asdfjaskfdk sdfas</p>
+          </div>
         </div>
-        
       </div>
       <button>My Profile</button>
-
     </div>
   );
 }

@@ -5,13 +5,11 @@ import CreatePost from "./createpost";
 export default function MiddlePostComponent() {
   return (
     <section className="middle__posts">
-     <CreatePost/>
-      <div  className="all_posts">
-        
-         <AllPosts/>
-         <AllPosts/>
-         <AllPosts/>
-
+      <CreatePost />
+      <div className="all_posts">
+        <AllPosts />
+        <AllPosts />
+        <AllPosts />
       </div>
     </section>
   );

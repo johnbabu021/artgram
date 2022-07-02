@@ -3,11 +3,12 @@
   --dark: #171717;
   --secondary: #232323;
   /* --background: #2d0d0d43; */
-  --background: #30262643;
+  --background: #241b1b70;
 
   --light--dark: #ff1010;
   --foreground: #ff0000;
   --grey: #8e8e8e;
+  user-select: none;
 }
 
 body {

@@ -2,7 +2,7 @@
   height: 100%;
   background: var(--dark);
   display: flex;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   width: 100%;
   justify-content: space-around;
 }
@@ -16,8 +16,29 @@
 }
 .dashboard__section > div:nth-child(2) {
   width: 40%;
-  /* background-color: rebeccapurple; */
+  /* background-color: rebeccapurple !important; */
 }
 .dashboard__section > div:nth-child(3) {
   width: 30%;
+}
+
+@media (max-width: 1300px) {
+  /*only two elements are here third is removed by state  */
+  .dashboard__section > div:nth-child(1) {
+    /* background-color: white; */
+    width: 50%;
+  }
+  .dashboard__section > div:nth-child(2) {
+    width: 50%;
+    margin-right: 40px;
+    /* background-color: rebeccapurple !important; */
+  }
+}
+@media (max-width: 950px) {
+  /* element changes from state so 2nd element is 1st here */
+  .dashboard__section > div:nth-child(1) {
+    width: 100%;
+    /* margin-right: 40px; */
+    /* background-color: rebeccapurple !important; */
+  }
 }

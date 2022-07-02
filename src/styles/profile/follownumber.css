@@ -1,0 +1,21 @@
+.follow__details {
+  margin-top: 40px;
+  width: 80%;
+  height: 80px;
+  min-height: 80px;
+  border-radius: 10px;
+  background-color: var(--secondary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.follow__number {
+  font-weight: bold;
+  display: grid;
+  font-size: 16px;
+  place-items: center;
+}
+.follow__text {
+  font-weight: bolder;
+  font-size: 14px;
+}
